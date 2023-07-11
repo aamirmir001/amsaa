@@ -1,0 +1,136 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #333;
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #e86f04;
+  }
+  
+  /* Main Content */
+  
+  main {
+    padding: 20px;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e86f04;
+    text-transform: uppercase;
+  }
+  
+  .product-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .product-image {
+    flex: 0 0 40%;
+    margin-right: 20px;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+  }
+  
+  .product-description {
+    flex: 1;
+  }
+  
+  .product-description p {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .price {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #e86f04;
+    font-size: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e86f04;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #b35300;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+    
+    header h1 {
+      font-size: 24px;
+    }
+    
+    .product-details {
+      flex-direction: column;
+    }
+    
+    .product-image {
+      margin-bottom: 20px;
+    }
+  }
+  
